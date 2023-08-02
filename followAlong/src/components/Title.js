@@ -16,6 +16,7 @@ const Title = () => {
   const handleFormSubmit = () => {
     setTitle(newTitleText);
     setEditing(false);
+    setNewTitleText('');
   }
 
   return (
